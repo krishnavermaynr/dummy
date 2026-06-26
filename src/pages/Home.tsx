@@ -20,7 +20,7 @@ export default function Home({ onNavigate, onAddToCart, onQuickView }: HomeProps
   const categories = [
     { name: 'Sports Jerseys', filterName: 'Sports Apparel', icon: <Trophy className="w-6 h-6" />, count: '140+ Items', bg: 'bg-brand-primary/10 text-brand-primary border-brand-primary/20' },
     { name: 'Training Apparel', filterName: 'Sports Apparel', icon: <Zap className="w-6 h-6" />, count: '210+ Items', bg: 'bg-amber-100/60 text-amber-700 border-amber-200/55' },
-    { name: 'Running Gear', filterName: 'Footwear', icon: <Zap className="w-6 h-6" />, count: '80+ Items', bg: 'bg-cyan-100/60 text-cyan-700 border-cyan-200/55' },
+    { name: 'Running G', filterName: 'Footwear', icon: <Zap className="w-6 h-6" />, count: '80+ Items', bg: 'bg-cyan-100/60 text-cyan-700 border-cyan-200/55' },
     { name: 'Fan Merchandise', filterName: 'Sports Apparel', icon: <Trophy className="w-6 h-6" />, count: '90+ Items', bg: 'bg-indigo-100/60 text-indigo-700 border-indigo-200/55' },
     { name: 'Sports Accessories', filterName: 'Accessories', icon: <ShieldCheck className="w-6 h-6" />, count: '120+ Items', bg: 'bg-emerald-100/60 text-emerald-700 border-emerald-200/55' },
     { name: 'Home Gym Equipment', filterName: 'Equipment', icon: <Zap className="w-6 h-6" />, count: '30+ Items', bg: 'bg-rose-100/60 text-rose-700 border-rose-200/55' }
