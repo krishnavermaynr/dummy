@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Outfit', system-ui, sans-serif;
+  
+  --color-brand-primary: #ff4a1c;
+  --color-brand-primary-hover: #e03910;
+  --color-brand-dark: #121316;
+  --color-brand-slate: #1e2025;
+  --color-brand-bg: #f8fafc;
+}
+
+/* Custom styles for professional scrollbars & custom elements */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Focus outline styles or simple transitions */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:ring-offset-2;
+}

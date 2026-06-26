@@ -1,0 +1,6 @@
+{
+  "name": "FanFuel",
+  "description": "Premium sports apparel, training gear, and performance accessories designed for athletes and passionate fans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
